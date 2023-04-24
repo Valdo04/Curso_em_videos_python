@@ -15,11 +15,13 @@ nascimento = ano - nascimento
 
 if nascimento <= 9:
     print('MIRIM')
-elif nascimento > 9 and nascimento <= 14:
+elif nascimento <= 14:
     print('INFANTIL')
-elif nascimento > 14 and nascimento <= 19:
+elif nascimento <= 19:
+    print('JUNIOR')
+elif nascimento <= 25:
     print('SÊNIOR')
-elif nascimento > 19 and nascimento < 110:
+else:
     print('MASTER')
 print(nascimento)    
 

@@ -7,8 +7,8 @@ print('Seu último nome é {}'.format(nome[len(nome)-1]))'''
 print ('contador de 1 a 100:')
 
 for i in range(100):
-    valor = i + 1
-    print(f'Contador: {valor:014}')
+    valor = i +1
+    print(f'Contador: {valor:14}')
 
 
 
