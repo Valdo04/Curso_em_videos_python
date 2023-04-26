@@ -3,9 +3,11 @@
 ################################################################################
 
 soma = 0
-for numeros in range(3 , 500, 3):
-    soma += numeros
-       
-    print(numeros)
-print(soma)
+cont = 0
+for numeros in range(1 , 500, 2):
+    if numeros % 3 == 0:
+        soma += numeros
+        cont += 1
+print(f'A soma de todos os {cont} valores solicitados é {soma}')
+
     

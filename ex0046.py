@@ -6,7 +6,7 @@
 from time import sleep
 import emoji 
 
-for fogos in range(10, 0, -1):
+for fogos in range(10, -1, -1):
     sleep(1)
     print(fogos)
 

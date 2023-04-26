@@ -2,8 +2,16 @@
 ########################################################################################
 
 numero = int(input('Digite o numero: '))
-
-if numero / 1 == numero and numero / numero == 1:
-    print(f'O {numero} é um numero primo')
+tot = 0
+for c in range(1, numero + 1):
+    if numero % c == 0:
+        print('\033[33m', end=' ')
+        tot += 1
+    else:
+        print('\033[31m', end=' ')
+    print(f'{c}', end='' )
+print(f'\n\033[m O número {numero} foi divisível {tot} vezes')
+if tot == 2:
+    print('E por isso ele é PRIMO!')
 else:
-    print(f'O {numero} numero não é um numero primo')
+    print('E por isso ele NÃO É PRIMO')

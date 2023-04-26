@@ -3,6 +3,6 @@
 
 #########################################################################################################
 
-for numeros_par in range(1, 50):
-    if numeros_par % 2 == 0:
-        print(numeros_par)
+for numeros_par in range(2, 51, 2):
+    print(numeros_par, end=' ')
+print('FIM')

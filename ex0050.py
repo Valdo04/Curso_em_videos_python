@@ -2,14 +2,12 @@
 # daqueles que forem pares. Se o valor valor digitado for ímpar desconsidere-o.
 ##########################################################################################
 
-num_par1 = []
+soma = 0
+cont = 0
 
-for numeros in range(0 , 6 ):
-    num_par = int(input('Digite os numeors'))
+for numeros in range(1 , 7 ):
+    num_par = int(input(f'Digite o {numeros}º valor: '))
     if num_par % 2 == 0:
-        num_par1.append(num_par)
-resultado = sum(num_par1)
-
-print(num_par1)
-print(resultado)
-
+        soma += num_par
+        cont += 1
+print(f'Você infomou {cont} número pares e a soma foi {soma}')
