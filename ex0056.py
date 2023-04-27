@@ -25,8 +25,9 @@ for p in range(1, 5):
     else:
         nomes_femi.append(nome)
         idade_femi.append(idade)
+    soma += idade / 4
 
-soma += idade / 4
+maior_idade_f = idade_femi [0]
 mais_velho =  nomes_masc [0]
 maior_idade = idade_masc [0]
 
@@ -35,7 +36,6 @@ for i in range(len(idade_masc)):
         maior_idade = idade_masc[i]
         mais_velho = nomes_masc[i]
 
-maior_idade_f = idade_femi [0]
 
 for y in range(len(idade_femi)):
     if idade_femi[y] < 20:
@@ -44,4 +44,4 @@ for y in range(len(idade_femi)):
 
 print(f'A média de idade do grupo é {soma}')
 print(f'O homem mais velho é o {mais_velho}')
-print(f'{cont_id}  tem menos de 20 anos')
+print(f'{cont_id} Mulher tem menos de 20 anos')
