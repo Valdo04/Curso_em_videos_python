@@ -13,7 +13,7 @@ while c != 5 :
     valor1 = float(input('Digite o primeiro numero: '))
     valor2 = float(input('Digite o segundo valor: '))
     opcao  = int(input('''ESCOLHA UMA OPÇÃO:
-    [ 1 ] somar [ 2 ] multiplicar [ 3 ] maior [ 4 ] novos numeros [ X ] sair do programa
+    [ 1 ] somar [ 2 ] multiplicar [ 3 ] maior [ 4 ] novos numeros [ 5 ] sair do programa
     :  '''))
     if opcao == 1:
         resultado1 = valor1 + valor2
@@ -29,8 +29,8 @@ while c != 5 :
     if opcao == 4:
         continue
     if opcao == 5:
-       print('FIM DO PROGRAMA')
-       break
+        print('FIM DO PROGRAMA')
+        break
     if valor1 == ' ' :
         print('NUMERO INVALIDO')
         continue
