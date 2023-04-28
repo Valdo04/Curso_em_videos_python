@@ -3,15 +3,14 @@
 
 ##############################################################################################3
 
-sexo = 'f'
-sexo1 = 'm'
-while sexo != 'f' and sexo1 != 'm:':
-  sexo = str(input('Digite seu sexo: ')).strip().lower()
-  if sexo == sexo or sexo1 == sexo1:
-    print('Valido')
 
-  else:
-    print('Digite novamente')
+sexo = ''
+while 'f' not in sexo and 'm' not in sexo:
+  sexo = str(input('Digite seu sexo: ')).strip().lower()
+  if sexo != 'f' and sexo != 'm':
+    print('DIGITE NOVAMENTE')
+print( 'VALIDO')
+
  
-print(sexo)
+
 
