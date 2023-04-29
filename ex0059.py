@@ -8,8 +8,8 @@
 #############################################################################################################
 
 
-c = 0
-while c != 5 :
+opcao = 0
+while opcao != 5 :
     valor1 = float(input('Digite o primeiro numero: '))
     valor2 = float(input('Digite o segundo valor: '))
     opcao  = int(input('''ESCOLHA UMA OPÇÃO:
