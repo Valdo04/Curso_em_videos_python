@@ -19,7 +19,7 @@ jogador = int(input(''' Escolha sua jogada
 [ 3 ] TESOURA
 :    ''' ))
 print('PROCESSANDO....')
-sleep(3)
+sleep(2)
 print('JO')
 sleep(2)
 print('KEN')
