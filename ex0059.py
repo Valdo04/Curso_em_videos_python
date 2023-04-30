@@ -31,9 +31,7 @@ while opcao != 5 :
     if opcao == 5:
         print('FIM DO PROGRAMA')
         break
-    if valor1 == ' ' :
-        print('NUMERO INVALIDO')
-        continue
+   
 
     
 

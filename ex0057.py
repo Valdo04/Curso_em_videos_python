@@ -6,7 +6,7 @@
 
 sexo = ''
 while 'f' not in sexo and 'm' not in sexo:
-  sexo = str(input('Digite seu sexo: ')).strip().lower()
+  sexo = str(input('Digite seu sexo:[M/F]')).strip().lower()
   if sexo != 'f' and sexo != 'm':
     print('DIGITE NOVAMENTE')
 print( 'VALIDO')

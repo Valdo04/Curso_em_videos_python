@@ -2,14 +2,15 @@
 # termos da progressão usando a estrutura while.
 ##################################################################################################33
 
+print('GERADOR DE PA')
+primeiro = int(input('Digite o primeiro termo:  '))
+razao = int(input('Razão:  '))
+termo = primeiro 
+cont = 1
+while cont <= 10:
+   print(f'{termo}', end=' -> ')
+   termo += razao
+   cont += 1
 
-n1= int(input('Digite o primeiro termo:  '))
-n2 = int(input('Razão:  '))
-n3 = n1 + (10 -1) * n2
-n = 1
-r = range(n1, n3 + n2, n2 )
-while n != 5: 
-   print(f'{r}', end=' -> ')
-   print('FIM')
+print('FIM')
 
-   n += 1

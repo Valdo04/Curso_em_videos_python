@@ -6,7 +6,7 @@
 from random import randint
 from time import sleep
 
-numero = randint(0, 11)
+numero = randint(0, 10)
 chute = []
 cont = 1
 while numero != chute:
