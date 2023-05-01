@@ -1,5 +1,9 @@
-
+# Simular caixa eletrnico
 #########################################################################################
+
+print('='* 30)
+print('{:^30}'.format('BANCO VALDO'))
+print('='* 30)
 valor_saque = int(input("Digite o valor que deseja sacar: "))
 
 notas_50 = notas_20 = notas_10 = notas_5 = notas_1 = 0
