@@ -14,9 +14,9 @@ while cont <= 3:
     valor = 9
     valor3 = 3
     contagem = tupla.count(valor)
-    posição = contagem.index(valor3)
     if num % 2 == 0:
         cont2 += 1
+    posição = tupla.index(valor3)
 print(f'Você digitou os valores {tupla}')
 print(f'O valor {valor} apareceu {contagem} vezes')
 print(f'O valor 3 aparece na {posição - 1}º posição')
