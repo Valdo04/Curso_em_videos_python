@@ -1,21 +1,19 @@
 # Faça um progama que leia 5 valores numericos e guarde-os em uma lista.
 #No final, mostre qual foi o maior eo menor valor digitado e as suas respectivas posições na lista.
 #########################################################################################################
+
 num = list()
-max = 0
-min = 0
 
 for n in range(5):
     num.append(int(input('Digite um numero: ')))
-    for c, v in enumerate(num):
-        if v > max:
-            max = v
-            min = v
-            if v < min :
-                min = v
-        
+maior = max(num)
+menor = min(num)
+pos_maior = num.index(maior)
+pos_menor = num.index(menor)
 
-print(max)
-print(min)
+print(f'O maior valor é {maior} é sua posição é {pos_maior}')
+print(f'O menor valor é {menor} é sua posição é {pos_menor}')
+
+
 
 
