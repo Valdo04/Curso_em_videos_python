@@ -2,3 +2,9 @@
 # No final, mostre um boletim contendo a media de cada um e permita que o usuario possa mostrar as 
 # notas de cada aluno individualmente.
 ########################################################################################################
+lista = [[], []]
+while True:
+    nome = str(input('Nome: '))
+    lista.append(nome)
+
+    
